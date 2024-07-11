@@ -63,8 +63,8 @@ $count = $countStatement->fetchColumn();
 if ($count === 0) {
     $username = 'admin';
     $password = 'password';
-    $siteTitle = 'World News';
-    $siteDescription = 'Latest news from popular newspapers. Updated 24/7.';
+    $siteTitle = 'WordPress News';
+    $siteDescription = 'Latest news from popular WordPress Blog. Updated 24/7.';
     $theme = 'quartz';
     $defaultSettings = array(
         'username' => $username,
@@ -81,9 +81,9 @@ if ($count === 0) {
     $statement->execute($defaultSettings);
 
     $firstNews = array(
-        'title' => 'New York Times',
-        'url' => 'https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml',
-        'name' => 'nyt'
+        'title' => 'IT Viec',
+        'url' => 'https://itviec.com/blog/feed/',
+        'name' => 'itviec'
     );
     $insertFirstNewsQuery = '
     INSERT INTO `news` (`title`, `url`, `name`)
