@@ -39,7 +39,7 @@ function fetchRss(rssUrl, newsName) {
     dataType: "json",
     method: "GET",
     success: function (data) {
-      const newsContainer = $(`#${news.name}-news-container`);
+      const newsContainer = $(`#${newsName}-news-container`);
       newsContainer.empty();
 
       data.forEach((item) => {
