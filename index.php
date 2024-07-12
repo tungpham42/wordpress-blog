@@ -7,7 +7,7 @@ include './config.php';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $settings['siteTitle']; ?></title>
-    <meta property="og:image" content="<?php echo $currentURL; ?>/kambria_1200x630.jpg">
+    <meta property="og:image" content="<?php echo $currentURL; ?>/tarot_1200x630.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:url" content="<?php echo $currentURL; ?>">
@@ -15,7 +15,7 @@ include './config.php';
     <meta property="og:title" content="<?php echo $settings['siteTitle']; ?>">
     <meta property="og:description" content="<?php echo $settings['siteDescription']; ?>">
     <meta name="description" content="<?php echo $settings['siteDescription']; ?>">
-    <link rel="icon" href="./kambria_favicon.png" sizes="64x64" type="image/x-icon">
+    <link rel="icon" href="./tarot_favicon.png" sizes="64x64" type="image/x-icon">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/css/bootstrap.min.css" integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Font Awesome -->
@@ -72,17 +72,17 @@ include './config.php';
         </div>
     </div>
     <div class="modal fade" id="newsModal" tabindex="-1" aria-labelledby="newsModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-xl">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="newsModalLabel"></h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Đóng"></button>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body" id="newsModalBody">
                 </div>
                 <div class="modal-footer">
-                    <a class="btn btn-secondary" data-bs-dismiss="modal">Đóng</a>
-                    <a id="newsModalLink" class="btn btn-primary" target="_blank">Xem thêm</a>
+                    <a class="btn btn-secondary" data-bs-dismiss="modal">Close</a>
+                    <a id="newsModalLink" class="btn btn-primary" target="_blank">View more</a>
                 </div>
             </div>
         </div>
