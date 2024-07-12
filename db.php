@@ -61,10 +61,10 @@ $countStatement = $pdo->prepare($countSql);
 $countStatement->execute();
 $count = $countStatement->fetchColumn();
 if ($count === 0) {
-    $username = 'admin';
-    $password = 'password';
+    $username = '';
+    $password = '';
     $siteTitle = 'WordPress News';
-    $siteDescription = 'Latest news from popular WordPress Blog. Updated 24/7.';
+    $siteDescription = 'Latest news from popular WordPress Blogs. Updated 24/7.';
     $theme = 'quartz';
     $defaultSettings = array(
         'username' => $username,

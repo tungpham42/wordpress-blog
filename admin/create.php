@@ -56,7 +56,7 @@
 
         <div class="form-group my-3">
           <label for="url">RSS URL:</label>
-          <input type="text" class="form-control" id="url" name="url" required value="https://blog.kambria.io/">
+          <input type="text" class="form-control" id="url" name="url" required>
         </div>
 
         <div class="form-group my-3">
