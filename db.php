@@ -81,9 +81,9 @@ if ($count === 0) {
     $statement->execute($defaultSettings);
 
     $firstNews = array(
-        'title' => 'IT Viec',
-        'url' => 'https://itviec.com/blog/feed/',
-        'name' => 'itviec'
+        'title' => 'Kambria',
+        'url' => 'https://blog.kambria.io/feed/',
+        'name' => 'kambria'
     );
     $insertFirstNewsQuery = '
     INSERT INTO `news` (`title`, `url`, `name`)
