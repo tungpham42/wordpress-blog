@@ -42,7 +42,7 @@ include './config.php';
 </head>
 <body>
     <div class="container mt-5">
-        <h1 class="text-center mb-3"><?php echo $settings['siteTitle']; ?></h1>
+        <h1 class="text-center mb-3"><i class="fa-solid fa-square-rss"></i> <?php echo $settings['siteTitle']; ?></h1>
         <h4 class="text-center mb-3"><?php echo $settings['siteDescription']; ?></h4>
 
         <!-- Tabs navigation -->
@@ -81,8 +81,8 @@ include './config.php';
                 <div class="modal-body" id="newsModalBody">
                 </div>
                 <div class="modal-footer">
-                    <a class="btn btn-secondary" data-bs-dismiss="modal">Close</a>
-                    <a id="newsModalLink" class="btn btn-primary" target="_blank">View more</a>
+                    <a class="btn btn-secondary" data-bs-dismiss="modal"><i class="fa-solid fa-xmark"></i> Close</a>
+                    <a id="newsModalLink" class="btn btn-primary" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> View more</a>
                 </div>
             </div>
         </div>
