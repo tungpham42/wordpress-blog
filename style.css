@@ -15,7 +15,6 @@ button {
   font-family: "Be Vietnam Pro", sans-serif !important;
 }
 img,
-iframe,
 figure,
 a:has(img) {
   width: auto;
@@ -27,6 +26,10 @@ a:has(img) {
 }
 a:has(img) {
   width: fit-content !important;
+}
+iframe {
+  display: block !important;
+  margin: auto !important;
 }
 a {
   display: inline-block;
@@ -46,4 +49,7 @@ a {
   right: 20px;
   padding: 10px 15px;
   display: none;
+}
+#newsModalBody {
+  white-space: pre-line;
 }
